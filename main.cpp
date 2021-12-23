@@ -12,4 +12,4 @@ int main()
     cout << tokamaki.getLarmor(electronVolt, magneticField) << endl;
 
     return 0;
-};
+}

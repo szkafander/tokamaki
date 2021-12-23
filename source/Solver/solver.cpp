@@ -6,7 +6,6 @@ double Tokamak::getNu_l(double E)
 }
 
 double Tokamak::getLarmor(double E, double B)
-//@ ezt itt mutatja?
 {
     return (E_MASS * getNu_l(E)) / (E_VOLT * B);
 }
